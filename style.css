@@ -1,0 +1,19 @@
+body {
+    background: white;
+    font: normal 16pt Arial;
+}
+
+.container {
+    margin-top: 13em;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 160px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+}
+
+#Clock {
+    text-align: center;
+}
