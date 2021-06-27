@@ -1,3 +1,3 @@
 # Clock
 
-Clock is a very important thing in our lives so I built a simple digital clock based on the person's current time using pure javascript with a basic layout
+O relógio é uma coisa muito importante em nossas vidas, então eu construí um relógio digital simples baseado na hora atual da pessoa usando puro javascript com um layout básico
