@@ -8,7 +8,7 @@ function AddClock() {
         seconds = "0" + seconds
     }
 
-    let clock = `${hours} : ${minutes} : ${seconds}`
+    let clock = `${hours + ''} : ${ minutes } : ${ '' + seconds}`
 
     document.getElementById('Clock').innerHTML = clock
 }
