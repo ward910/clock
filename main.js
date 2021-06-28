@@ -1,8 +1,8 @@
 function AddClock() {
-    const now = new Date()
-    const hours = now.getHours()
-    const minutes = now.getMinutes()
-    const seconds = now.getSeconds()
+    const now = new Date() // objeto data
+    const hours = now.getHours() // hora
+    const minutes = now.getMinutes() // minutos
+    const seconds = now.getSeconds() // segundos
 
     if(seconds < 0){
         seconds = "0" + seconds
@@ -13,4 +13,5 @@ function AddClock() {
     document.getElementById('Clock').innerHTML = clock
 }
 
+// A função vai ser chamada a cada 1000 milesegundos
 setInterval(AddClock, 1000)
